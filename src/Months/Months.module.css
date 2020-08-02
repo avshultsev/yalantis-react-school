@@ -1,0 +1,23 @@
+.Months {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Months li {
+    width: 100px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 0 auto 10px;
+    opacity: 1;
+    background-color: #fff;
+    transition: opacity .2s ease-in;
+}
+
+.Months li:hover {
+    opacity: .7;
+    cursor: pointer;
+}

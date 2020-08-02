@@ -1,0 +1,30 @@
+.Button {
+    position: fixed;
+    bottom: 10px;
+    left: 15px;
+    background-color: rgba(36, 44, 167, 0.9);
+    border: 1px solid rgb(39, 22, 78);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 10px;
+    transition: background-color .2s ease-in;
+}
+
+.Button:hover {
+    cursor: pointer;
+    background-color: rgba(12, 19, 119, 0.966);
+}
+
+.Button:active {
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, .3);
+}
+
+.Button.disabled {
+    background-color: rgb(92, 92, 92);
+    cursor: not-allowed;
+}
+
+.Button.disabled:active {
+    box-shadow: inset 2px 2px 1px rgb(92, 92, 92);
+}
